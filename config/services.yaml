@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+    
+    AlanVdb\Console\:
+        resource: '../src'
+        tags: ['console.command']
