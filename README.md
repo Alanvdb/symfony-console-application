@@ -42,7 +42,7 @@ cd project-name
 
 ## Creating New Commands
 
-1. Create a new PHP class in `src/Command/` (e.g., `NewCommand.php`)
+1. Create a new PHP class in `src/` (e.g., `NewCommand.php`)
 2. Extend `Symfony\Component\Console\Command\Command`
 3. Use the `#[AsCommand]` attribute or implement `configure()` method
 
