@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f054b603dfc00da06edfbe55d628c66",
+    "content-hash": "04cf13e1664102aa511cfd64ba37f655",
     "packages": [
         {
             "name": "alanvdb/console-application-interface",
@@ -751,6 +751,37 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "alanvdb/symfony-console-application-test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alanvdb/symfony-console-application-test.git",
+                "reference": "a23d4ba298bf58deb780829ae75365cabba5dad9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alanvdb/symfony-console-application-test/zipball/a23d4ba298bf58deb780829ae75365cabba5dad9",
+                "reference": "a23d4ba298bf58deb780829ae75365cabba5dad9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.4",
+                "phpunit/phpunit": "^12.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlanVdb\\Test\\": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/Alanvdb/symfony-console-application-test/tree/v0.1",
+                "issues": "https://github.com/Alanvdb/symfony-console-application-test/issues"
+            },
+            "time": "2025-06-14T10:45:57+00:00"
+        },
         {
             "name": "myclabs/deep-copy",
             "version": "1.13.1",
@@ -2356,7 +2387,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "alanvdb/symfony-console-application-test": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
