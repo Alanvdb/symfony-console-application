@@ -33,7 +33,6 @@ require 'vendor/autoload.php';
 
 use AlanVdb\Console\SymfonyConsoleApplication;
 
-
 $instance = new SymfonyConsoleApplication(
     'MyApp',
     '1.0',
