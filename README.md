@@ -16,7 +16,6 @@ _Desription_
 
 ## Requirements
 
-- PHP ^8.4
 - alanvdb/console-application-interface ^1.0
 
 ## Installation
@@ -34,7 +33,12 @@ require 'vendor/autoload.php';
 
 use AlanVdb\Console\SymfonyConsoleApplication;
 
-$instance = new SymfonyConsoleApplication();
+
+$instance = new SymfonyConsoleApplication(
+    'MyApp',
+    '1.0',
+    \My\Command::class // must implement AlanVdb\Console\Definition\CommandInterface
+);
 ```
 
 Factory pattern :
@@ -45,7 +49,11 @@ require 'vendor/autoload.php';
 use AlanVdb\Console\Factory\SymfonyConsoleApplicationFactory;
 
 $factory = new SymfonyConsoleApplicationFactory();
-$instance = $factory->createSymfonyConsoleApplication();
+$instance = $factory->createConsoleApplication(
+    'MyApp',
+    '1.0',
+    \My\Command::class // must implement AlanVdb\Console\Definition\CommandInterface
+);
 ```
 
 ## License
