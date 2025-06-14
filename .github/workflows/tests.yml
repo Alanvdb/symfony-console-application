@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         composer install
-        composer require --dev votre-nom/test-helpers
+        composer require --dev alanvdb/symfony-console-application-test
         
     - name: Run tests
       run: ./vendor/bin/phpunit

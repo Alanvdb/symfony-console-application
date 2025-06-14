@@ -757,12 +757,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Alanvdb/symfony-console-application-test.git",
-                "reference": "a23d4ba298bf58deb780829ae75365cabba5dad9"
+                "reference": "e117333cff37a9ce5bcc704a129f1a68a0063b84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Alanvdb/symfony-console-application-test/zipball/a23d4ba298bf58deb780829ae75365cabba5dad9",
-                "reference": "a23d4ba298bf58deb780829ae75365cabba5dad9",
+                "url": "https://api.github.com/repos/Alanvdb/symfony-console-application-test/zipball/e117333cff37a9ce5bcc704a129f1a68a0063b84",
+                "reference": "e117333cff37a9ce5bcc704a129f1a68a0063b84",
                 "shasum": ""
             },
             "require": {
@@ -777,10 +777,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/Alanvdb/symfony-console-application-test/tree/v0.1",
+                "source": "https://github.com/Alanvdb/symfony-console-application-test/tree/master",
                 "issues": "https://github.com/Alanvdb/symfony-console-application-test/issues"
             },
-            "time": "2025-06-14T10:45:57+00:00"
+            "time": "2025-06-14T18:56:50+00:00"
         },
         {
             "name": "myclabs/deep-copy",
