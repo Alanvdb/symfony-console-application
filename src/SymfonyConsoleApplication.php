@@ -15,8 +15,6 @@ class SymfonyConsoleApplication
     {
         parent::__construct($name, $version);
 
-        $kernel = new Kernel();
-        $container = $kernel->getContainer();
         foreach($commands as $command) {
             if (!class_exists($command)) {
                 throw new InvalidArgumentException(
@@ -30,6 +28,8 @@ class SymfonyConsoleApplication
                     $command
                 ));
             }
+            $command = new $commandClass();
+            $this->add($command);
         }
     }
 }
