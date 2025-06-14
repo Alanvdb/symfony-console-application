@@ -1,0 +1,26 @@
+{
+    "name": "alanvdb/symfony-console-application",
+    "description": "Console application based on symfony/console.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlanVdb\\Console\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alanvdb",
+            "email": "alanvdb.coder@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.4",
+        "alanvdb/console-application-interface": "^1.0",
+        "symfony/console": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.2"
+    }
+}
