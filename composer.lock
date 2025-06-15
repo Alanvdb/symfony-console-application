@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5f0fece0c734a85d1e4363b244dda89",
+    "content-hash": "18e934a39e20db0c151fe83f880b2ece",
     "packages": [
         {
             "name": "alanvdb/console-application-interface",
-            "version": "v2.0",
+            "version": "v3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Alanvdb/console-application-interface.git",
-                "reference": "5e1182658ef1eded75c746d458708eda2f36feab"
+                "reference": "6ee756e94a0faf32bd9f3b1d0246796cb6ada3bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Alanvdb/console-application-interface/zipball/5e1182658ef1eded75c746d458708eda2f36feab",
-                "reference": "5e1182658ef1eded75c746d458708eda2f36feab",
+                "url": "https://api.github.com/repos/Alanvdb/console-application-interface/zipball/6ee756e94a0faf32bd9f3b1d0246796cb6ada3bf",
+                "reference": "6ee756e94a0faf32bd9f3b1d0246796cb6ada3bf",
                 "shasum": ""
             },
             "require": {
@@ -45,9 +45,9 @@
             "description": "Interfaces for console application.",
             "support": {
                 "issues": "https://github.com/Alanvdb/console-application-interface/issues",
-                "source": "https://github.com/Alanvdb/console-application-interface/tree/v2.0"
+                "source": "https://github.com/Alanvdb/console-application-interface/tree/v3.0"
             },
-            "time": "2025-06-15T13:56:55+00:00"
+            "time": "2025-06-15T15:45:56+00:00"
         },
         {
             "name": "psr/container",
