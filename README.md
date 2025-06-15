@@ -1,9 +1,8 @@
 # alanvdb/symfony-console-application
-_Desription_
+Console application based on symfony/console library.
 
 [![Latest Version](https://img.shields.io/packagist/v/alanvdb/symfony-console-application.svg?style=flat-square)](https://packagist.org/packages/alanvdb/symfony-console-application)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![CI Status](https://img.shields.io/github/actions/workflow/status/alanvdb/symfony-console-application/tests.yml?label=Tests&style=flat-square)](https://github.com/alanvdb/symfony-console-application/actions)
 [![PHP Version](https://img.shields.io/packagist/php-v/alanvdb/symfony-console-application.svg?style=flat-square)](https://packagist.org/packages/alanvdb/symfony-console-application)
 
 ## Overview
