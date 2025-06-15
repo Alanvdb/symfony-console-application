@@ -1,6 +1,6 @@
 {
     "name": "alanvdb/symfony-console-application",
-    "description": "Console application based on symfony/console.",
+    "description": "Console application based on symfony/console library.",
     "type": "library",
     "license": "MIT",
     "autoload": {
