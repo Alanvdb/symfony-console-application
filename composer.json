@@ -8,11 +8,6 @@
             "AlanVdb\\Console\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "AlanVdb\\Console\\Test\\": "tests/"
-        }
-    },
     "authors": [
         {
             "name": "alanvdb",
