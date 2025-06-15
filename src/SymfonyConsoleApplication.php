@@ -3,8 +3,8 @@
 namespace AlanVdb\Console;
 
 use AlanVdb\Console\Definition\ConsoleApplicationInterface;
-use AlanVdb\Console\Definition\CommandInterface;
 use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Command\SignalableCommandInterface;
 use AlanVdb\Console\Exception\InvalidArgumentException;
 
 class SymfonyConsoleApplication
@@ -21,10 +21,10 @@ class SymfonyConsoleApplication
                     "Provided class does not exists : \"{$command}\"."
                 );
             }
-            if (!is_subclass_of($command, CommandInterface::class)) {
+            if (!is_subclass_of($command, SignalableCommandInterface::class)) {
                 throw new InvalidArgumentException(sprintf(
                     "Provided class does not implements %s : \"%s\".",
-                    CommandInterface::class,
+                    SignalableCommandInterface::class,
                     $command
                 ));
             }

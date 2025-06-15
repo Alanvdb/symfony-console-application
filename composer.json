@@ -22,7 +22,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.4",
-        "alanvdb/console-application-interface": "^1.0",
+        "alanvdb/console-application-interface": "^2.0",
         "symfony/console": "^7.3"
     },
     "require-dev": {

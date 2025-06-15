@@ -4,24 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72d67c599cd40161294803e0e2f6cc6c",
+    "content-hash": "a5f0fece0c734a85d1e4363b244dda89",
     "packages": [
         {
             "name": "alanvdb/console-application-interface",
-            "version": "v1.0",
+            "version": "v2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Alanvdb/console-application-interface.git",
-                "reference": "e873523f529f5b2feda8e644813bc4e976ca0eb1"
+                "reference": "5e1182658ef1eded75c746d458708eda2f36feab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Alanvdb/console-application-interface/zipball/e873523f529f5b2feda8e644813bc4e976ca0eb1",
-                "reference": "e873523f529f5b2feda8e644813bc4e976ca0eb1",
+                "url": "https://api.github.com/repos/Alanvdb/console-application-interface/zipball/5e1182658ef1eded75c746d458708eda2f36feab",
+                "reference": "5e1182658ef1eded75c746d458708eda2f36feab",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.4"
+            },
+            "require-dev": {
+                "symfony/process": "^7.3"
             },
             "type": "library",
             "autoload": {
@@ -42,9 +45,9 @@
             "description": "Interfaces for console application.",
             "support": {
                 "issues": "https://github.com/Alanvdb/console-application-interface/issues",
-                "source": "https://github.com/Alanvdb/console-application-interface/tree/v1.0"
+                "source": "https://github.com/Alanvdb/console-application-interface/tree/v2.0"
             },
-            "time": "2025-06-14T09:50:18+00:00"
+            "time": "2025-06-15T13:56:55+00:00"
         },
         {
             "name": "psr/container",
