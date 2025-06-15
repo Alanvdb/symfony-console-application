@@ -1,0 +1,10 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - tests
+    tmpDir: build/phpstan
+    checkOctaneCompatibility: true
+    checkBenevolentUnionTypes: true
+    checkUninitializedProperties: true
+    checkMissingIterableValueType: false

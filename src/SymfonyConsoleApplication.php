@@ -28,7 +28,7 @@ class SymfonyConsoleApplication
                     $command
                 ));
             }
-            $command = new $commandClass();
+            $command = new $command();
             $this->add($command);
         }
     }

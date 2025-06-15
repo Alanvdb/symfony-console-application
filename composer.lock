@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04cf13e1664102aa511cfd64ba37f655",
+    "content-hash": "72d67c599cd40161294803e0e2f6cc6c",
     "packages": [
         {
             "name": "alanvdb/console-application-interface",
@@ -751,37 +751,6 @@
         }
     ],
     "packages-dev": [
-        {
-            "name": "alanvdb/symfony-console-application-test",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Alanvdb/symfony-console-application-test.git",
-                "reference": "e117333cff37a9ce5bcc704a129f1a68a0063b84"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Alanvdb/symfony-console-application-test/zipball/e117333cff37a9ce5bcc704a129f1a68a0063b84",
-                "reference": "e117333cff37a9ce5bcc704a129f1a68a0063b84",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4",
-                "phpunit/phpunit": "^12.2"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "AlanVdb\\Test\\": "src/"
-                }
-            },
-            "support": {
-                "source": "https://github.com/Alanvdb/symfony-console-application-test/tree/master",
-                "issues": "https://github.com/Alanvdb/symfony-console-application-test/issues"
-            },
-            "time": "2025-06-14T18:56:50+00:00"
-        },
         {
             "name": "myclabs/deep-copy",
             "version": "1.13.1",
@@ -2335,6 +2304,67 @@
             "time": "2024-10-20T05:08:20+00:00"
         },
         {
+            "name": "symfony/process",
+            "version": "v7.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "40c295f2deb408d5e9d2d32b8ba1dd61e36f05af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/40c295f2deb408d5e9d2d32b8ba1dd61e36f05af",
+                "reference": "40c295f2deb408d5e9d2d32b8ba1dd61e36f05af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Executes commands in sub-processes",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/process/tree/v7.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-04-17T09:11:12+00:00"
+        },
+        {
             "name": "theseer/tokenizer",
             "version": "1.2.3",
             "source": {
@@ -2387,9 +2417,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "alanvdb/symfony-console-application-test": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

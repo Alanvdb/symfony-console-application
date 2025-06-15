@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="F:\Dev\libraries\console\symfony-console-application\phpunit.xml" tests="4" assertions="10" errors="0" failures="0" skipped="0" time="0.144637">
+    <testsuite name="Unit Tests" tests="4" assertions="10" errors="0" failures="0" skipped="0" time="0.144637">
+      <testsuite name="AlanVdb\Console\Factory\Tests\SymfonyConsoleApplicationFactoryTest" file="F:\Dev\libraries\console\symfony-console-application\tests\SymfonyConsoleApplicationFactoryTest.php" tests="4" assertions="10" errors="0" failures="0" skipped="0" time="0.144637">
+        <testcase name="testCreateConsoleApplicationReturnsCorrectInstance" file="F:\Dev\libraries\console\symfony-console-application\tests\SymfonyConsoleApplicationFactoryTest.php" line="22" class="AlanVdb\Console\Factory\Tests\SymfonyConsoleApplicationFactoryTest" classname="AlanVdb.Console.Factory.Tests.SymfonyConsoleApplicationFactoryTest" assertions="2" time="0.021157"/>
+        <testcase name="testInvalidCommandThrowsException" file="F:\Dev\libraries\console\symfony-console-application\tests\SymfonyConsoleApplicationFactoryTest.php" line="54" class="AlanVdb\Console\Factory\Tests\SymfonyConsoleApplicationFactoryTest" classname="AlanVdb.Console.Factory.Tests.SymfonyConsoleApplicationFactoryTest" assertions="2" time="0.005064"/>
+        <testcase name="testCommandNotImplementingInterfaceThrowsException" file="F:\Dev\libraries\console\symfony-console-application\tests\SymfonyConsoleApplicationFactoryTest.php" line="67" class="AlanVdb\Console\Factory\Tests\SymfonyConsoleApplicationFactoryTest" classname="AlanVdb.Console.Factory.Tests.SymfonyConsoleApplicationFactoryTest" assertions="2" time="0.003618"/>
+        <testcase name="testConstructorArgumentsArePassedCorrectly" file="F:\Dev\libraries\console\symfony-console-application\tests\SymfonyConsoleApplicationFactoryTest.php" line="34" class="AlanVdb\Console\Factory\Tests\SymfonyConsoleApplicationFactoryTest" classname="AlanVdb.Console.Factory.Tests.SymfonyConsoleApplicationFactoryTest" assertions="4" time="0.114798"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
